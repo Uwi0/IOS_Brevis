@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FB18DF122C844CEB00F08A6F /* MainHotkeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18DF112C844CEB00F08A6F /* MainHotkeysView.swift */; };
 		FB18DF142C844E6C00F08A6F /* HotkeySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18DF132C844E6C00F08A6F /* HotkeySectionView.swift */; };
+		FB18DF162C84535400F08A6F /* HotkeyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18DF152C84535400F08A6F /* HotkeyRow.swift */; };
 		FBF830C62C842DB900B44B02 /* BrevisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF830C52C842DB900B44B02 /* BrevisApp.swift */; };
 		FBF830C82C842DB900B44B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF830C72C842DB900B44B02 /* ContentView.swift */; };
 		FBF830CA2C842DBA00B44B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF830C92C842DBA00B44B02 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		FB18DF112C844CEB00F08A6F /* MainHotkeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHotkeysView.swift; sourceTree = "<group>"; };
 		FB18DF132C844E6C00F08A6F /* HotkeySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeySectionView.swift; sourceTree = "<group>"; };
+		FB18DF152C84535400F08A6F /* HotkeyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyRow.swift; sourceTree = "<group>"; };
 		FBF830C22C842DB900B44B02 /* Brevis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brevis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF830C52C842DB900B44B02 /* BrevisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrevisApp.swift; sourceTree = "<group>"; };
 		FBF830C72C842DB900B44B02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				FB18DF112C844CEB00F08A6F /* MainHotkeysView.swift */,
 				FB18DF132C844E6C00F08A6F /* HotkeySectionView.swift */,
+				FB18DF152C84535400F08A6F /* HotkeyRow.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				FBF830DB2C842F1D00B44B02 /* Modifier.swift in Sources */,
 				FBF830DF2C84308600B44B02 /* HotkeyCategoryViewModel.swift in Sources */,
 				FB18DF122C844CEB00F08A6F /* MainHotkeysView.swift in Sources */,
+				FB18DF162C84535400F08A6F /* HotkeyRow.swift in Sources */,
 				FBF830C82C842DB900B44B02 /* ContentView.swift in Sources */,
 				FBF830C62C842DB900B44B02 /* BrevisApp.swift in Sources */,
 				FB18DF142C844E6C00F08A6F /* HotkeySectionView.swift in Sources */,

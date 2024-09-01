@@ -8,6 +8,13 @@ struct HotKeyModel: Identifiable {
     
     //TODO: Update description
     var description: String {
-        "Decription - todo incomplete - \(modifiers) \(character.capitalized)" 
+        var result = ""
+        for modifier in modifiers {
+            result += modifier.rawValue
+        }
+        
+        result += " \(character.capitalized)"
+        
+        return result
     }
 }

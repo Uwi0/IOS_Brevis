@@ -3,7 +3,7 @@ import SwiftUI
 struct HotkeySectionView: View {
     let hotKeyCategoryName: String
     let hotkeyModels: [HotKeyModel]
-    let searchQUery: String
+    let searchQuery: String
     
     //TODO: Use a Theme
     let sectionHeaderFont: Font = .body
@@ -18,8 +18,7 @@ struct HotkeySectionView: View {
         if !filterHotkeysModels.isEmpty {
             Section {
                 ForEach(filterHotkeysModels) { hotKeyModel in
-                    //TODO: Hotkey Row
-                    Text("\(hotKeyModel.description) \(hotKeyModel.character)")
+                    HotkeyRow(hotkeyModel: hotKeyModel, searchQuery: searchQuery)
                 }
             } header: {
                 Text(hotKeyCategoryName)
@@ -41,7 +40,7 @@ struct HotkeySectionView: View {
                 .init(modifiers: [.command],character: ".",text: "Stop"),
                 .init(modifiers: [.command, .shift],character: "k",text: "Clean build folder"),
             ],
-            searchQUery: ""
+            searchQuery: ""
         )
     }
 }

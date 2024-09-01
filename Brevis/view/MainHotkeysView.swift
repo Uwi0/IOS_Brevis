@@ -12,7 +12,7 @@ struct MainHotkeysView: View {
                     HotkeySectionView(
                         hotKeyCategoryName: hotkeyCategory.name,
                         hotkeyModels: hotkeyCategory.hotkeyModels,
-                        searchQUery: searchQuery
+                        searchQuery: searchQuery
                     )
                 }
             }
