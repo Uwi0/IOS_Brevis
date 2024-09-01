@@ -11,6 +11,7 @@
 		FB18DF142C844E6C00F08A6F /* HotkeySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18DF132C844E6C00F08A6F /* HotkeySectionView.swift */; };
 		FB18DF162C84535400F08A6F /* HotkeyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18DF152C84535400F08A6F /* HotkeyRow.swift */; };
 		FB18DF182C84584400F08A6F /* KeySymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB18DF172C84584400F08A6F /* KeySymbolView.swift */; };
+		FB9CD1562C84948000984B9E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9CD1552C84948000984B9E /* Theme.swift */; };
 		FBF830C62C842DB900B44B02 /* BrevisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF830C52C842DB900B44B02 /* BrevisApp.swift */; };
 		FBF830CA2C842DBA00B44B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF830C92C842DBA00B44B02 /* Assets.xcassets */; };
 		FBF830CE2C842DBA00B44B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF830CD2C842DBA00B44B02 /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		FB18DF132C844E6C00F08A6F /* HotkeySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeySectionView.swift; sourceTree = "<group>"; };
 		FB18DF152C84535400F08A6F /* HotkeyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyRow.swift; sourceTree = "<group>"; };
 		FB18DF172C84584400F08A6F /* KeySymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySymbolView.swift; sourceTree = "<group>"; };
+		FB9CD1552C84948000984B9E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		FBF830C22C842DB900B44B02 /* Brevis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brevis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF830C52C842DB900B44B02 /* BrevisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrevisApp.swift; sourceTree = "<group>"; };
 		FBF830C92C842DBA00B44B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		FBF830D72C842E3800B44B02 /* settings */ = {
 			isa = PBXGroup;
 			children = (
+				FB9CD1552C84948000984B9E /* Theme.swift */,
 			);
 			path = settings;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				FB18DF162C84535400F08A6F /* HotkeyRow.swift in Sources */,
 				FBF830C62C842DB900B44B02 /* BrevisApp.swift in Sources */,
 				FB18DF142C844E6C00F08A6F /* HotkeySectionView.swift in Sources */,
+				FB9CD1562C84948000984B9E /* Theme.swift in Sources */,
 				FB18DF182C84584400F08A6F /* KeySymbolView.swift in Sources */,
 				FBF830D92C842E4800B44B02 /* HotKeyModel.swift in Sources */,
 			);

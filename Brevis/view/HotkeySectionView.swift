@@ -5,10 +5,9 @@ struct HotkeySectionView: View {
     let hotkeyModels: [HotKeyModel]
     let searchQuery: String
     
-    //TODO: Use a Theme
-    let sectionHeaderFont: Font = .body
-    let fontWeight: Font.Weight = .semibold
-    let sectionHeaderColor: Color = .red
+    let sectionHeaderFont: Font = Theme.sectionHeaderFont
+    let fontWeight: Font.Weight = Theme.fontWeight
+    let subtitleColor: Color = Theme.subtitleColor
     
     var filterHotkeysModels: [HotKeyModel] {
         if searchQuery.count <= 1 {
@@ -31,7 +30,7 @@ struct HotkeySectionView: View {
                 Text(hotKeyCategoryName)
                     .font(sectionHeaderFont)
                     .fontWeight(fontWeight)
-                    .foregroundStyle(sectionHeaderColor)
+                    .foregroundStyle(subtitleColor)
             }
         }
     }

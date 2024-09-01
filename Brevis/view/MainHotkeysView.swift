@@ -5,6 +5,8 @@ struct MainHotkeysView: View {
     @State private var searchQuery: String = ""
     var viewModel: HotkeyCategoryViewModel = HotkeyCategoryViewModel()
     
+    let listStyle = Theme.listStyle
+    
     var body: some View {
         NavigationStack {
             Form {
@@ -15,12 +17,14 @@ struct MainHotkeysView: View {
                         searchQuery: searchQuery
                     )
                 }
+                .listStyle(listStyle)
             }
             .navigationTitle("XCode Hotkeys")
             .searchable(text: $searchQuery, prompt: "Search...")
             
             KeySymbolView()
         }
+        .frame(minWidth: Theme.frameWithd, minHeight: Theme.frameHeight)
     }
 }
 
