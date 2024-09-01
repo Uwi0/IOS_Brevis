@@ -9,7 +9,11 @@ struct MainHotkeysView: View {
         NavigationStack {
             Form {
                 List(viewModel.hotkeyCategories) { hotkeyCategory in
-                    Text("Hello")
+                    HotkeySectionView(
+                        hotKeyCategoryName: hotkeyCategory.name,
+                        hotkeyModels: hotkeyCategory.hotkeyModels,
+                        searchQUery: searchQuery
+                    )
                 }
             }
             .navigationTitle("XCode Hotkeys")
