@@ -11,6 +11,8 @@
 		FBF830C82C842DB900B44B02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF830C72C842DB900B44B02 /* ContentView.swift */; };
 		FBF830CA2C842DBA00B44B02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF830C92C842DBA00B44B02 /* Assets.xcassets */; };
 		FBF830CE2C842DBA00B44B02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF830CD2C842DBA00B44B02 /* Preview Assets.xcassets */; };
+		FBF830D92C842E4800B44B02 /* HotKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF830D82C842E4800B44B02 /* HotKeyModel.swift */; };
+		FBF830DB2C842F1D00B44B02 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF830DA2C842F1D00B44B02 /* Modifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FBF830C92C842DBA00B44B02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF830CB2C842DBA00B44B02 /* Brevis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Brevis.entitlements; sourceTree = "<group>"; };
 		FBF830CD2C842DBA00B44B02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBF830D82C842E4800B44B02 /* HotKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyModel.swift; sourceTree = "<group>"; };
+		FBF830DA2C842F1D00B44B02 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,10 @@
 		FBF830C42C842DB900B44B02 /* Brevis */ = {
 			isa = PBXGroup;
 			children = (
+				FBF830D72C842E3800B44B02 /* settings */,
+				FBF830D62C842E2B00B44B02 /* view */,
+				FBF830D52C842E1900B44B02 /* viewModel */,
+				FBF830D42C842DFC00B44B02 /* model */,
 				FBF830C52C842DB900B44B02 /* BrevisApp.swift */,
 				FBF830C72C842DB900B44B02 /* ContentView.swift */,
 				FBF830C92C842DBA00B44B02 /* Assets.xcassets */,
@@ -67,6 +75,36 @@
 				FBF830CD2C842DBA00B44B02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBF830D42C842DFC00B44B02 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FBF830D82C842E4800B44B02 /* HotKeyModel.swift */,
+				FBF830DA2C842F1D00B44B02 /* Modifier.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FBF830D52C842E1900B44B02 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		FBF830D62C842E2B00B44B02 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FBF830D72C842E3800B44B02 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF830DB2C842F1D00B44B02 /* Modifier.swift in Sources */,
 				FBF830C82C842DB900B44B02 /* ContentView.swift in Sources */,
 				FBF830C62C842DB900B44B02 /* BrevisApp.swift in Sources */,
+				FBF830D92C842E4800B44B02 /* HotKeyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
