@@ -2,7 +2,7 @@ import Foundation
 
 @Observable
 class HotkeyCategoryViewModel {
-    var hotkeyCategoryModels: [HotkeyCategoryModel] = []
+    var hotkeyCategories: [HotkeyCategoryModel] = []
     
     init() {
         let productCategory: HotkeyCategoryModel = .init(name: "Product", hotkeyModels: [
@@ -73,7 +73,7 @@ class HotkeyCategoryViewModel {
             .init(modifiers: [.command, .option], character: "C", text: "Commit changes"),
         ])
         
-        hotkeyCategoryModels = [
+        hotkeyCategories = [
             productCategory,
             schemeCategory,
             hideOrShowPanelsCategory,
