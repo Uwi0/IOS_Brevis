@@ -18,6 +18,8 @@ struct MainHotkeysView: View {
             }
             .navigationTitle("XCode Hotkeys")
             .searchable(text: $searchQuery, prompt: "Search...")
+            
+            KeySymbolView()
         }
     }
 }
